@@ -10,8 +10,8 @@ locale                   : "en-US"
 title                    : "OmSDeshmukh"
 title_separator          : "-"
 name                     : &name "Om Suhas Deshmukh"
-description              : &description "CSE Student at IIT Dharwad"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "3rd year CSE Student at IIT Dharwad"
+url                      : https://OmSDeshmukh.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "OmSDeshmukh.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Om Deshmukh"
+  name             : "Om Suhas Deshmukh"
   avatar           : "profile.png"
   bio              : "3rd year CSE student at IIT Dharwad"
   location         : "Maharashtra, India"
