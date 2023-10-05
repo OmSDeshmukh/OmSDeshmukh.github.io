@@ -21,12 +21,20 @@ Work experience
   
 Skills
 ======
-* Machine Learning
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Machine Learning and Deep Learning
+  * Frameworks
+    * TensorFlow
+    * PyTorch
+    * scikit-learn
+    * Keras
+  * Data Visualisation
+    * Matplotlib
+* Programming
+  * C/C++
+  * Python
+  * Java
+
+
 
 Publications
 ======
