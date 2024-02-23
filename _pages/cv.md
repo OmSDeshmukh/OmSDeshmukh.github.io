@@ -9,51 +9,67 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Secondary Education from Cambridge School, Sambhajinagar, 2019
-* Higher Secondary from Malllick Jr. College, Sambhajinagar, 2021
-* B.Tech in CSE, IIT Dharwad, 2025 (expected)
+# Om Deshmukh
 
-Work experience
-======
+[GitHub](https://github.com/OmSDeshmukh) | [LinkedIn](www.linkedin.com/in/omsuhasdeshmukh) | [Portfolio Website](https://omsdeshmukh.github.io/)
 
-  
-Skills
-======
-* Machine Learning and Deep Learning
-  * Frameworks
-    * TensorFlow
-    * PyTorch
-    * scikit-learn
-    * Keras
-  * Data Visualisation
-    * Matplotlib
-* Programming
-  * C/C++
-  * Python
-  * Java
+---
+
+### Education
+- **Indian Institute of Technology, Dharwad**
+  - B.Tech. Computer Science and Engineering, CGPA: 9.23, 2025
+
+- **Mallick Jr College, Sambhajinagar**
+  - Maharashtra State Board of Secondary and Higher Secondary Education, Pune, Percentage: 94.83%, 2021
+
+- **Cambridge School, Sambhajinagar**
+  - Council for Indian School Certificate Examination, New Delhi, Percentage: 95.6%, 2019
+
+---
+
+### Coursework
+- **College:** Data Structures and Algorithms, Design and Analysis of Algorithms, Artificial Intelligence, Discrete Structures, Software Systems, Introduction to Probability and Data Analysis, Databases and Information Systems
+- **Coursera:** Machine Learning Specialisation(by Andrew Ng), Deep Learning Specialisation(by Andrew Ng)
+
+---
+
+### Technical Projects and R&D
+- **Unpaired Image Translation**
+  - Building GAN model for unpaired image translation, ongoing
+  - Tools & technologies used: Python, Pytorch
+
+- **NLDBQuery**
+  - Natural Language to SQL Query Processor, January 2024
+  - Implemented NLDBQuery, an end to end application to accurately process plain English queries into SQL queries and provide with the correct answer to our query.Used Google's Palm API for llm model, advanced techniques such as vector databases and few-shot learning to further boost the model accuracy in answering the queries.
+  - Tools & technologies used: Python, Google Palm, Langchain, Hugging Face, ChromaDB, Streamlit
+
+- **Gesture-Controlled Volume Adjustment System**
+  - Hand Gesture Recognition With Volume Control, December 2023
+  - Implemented hand landmark detection, tracking, and angle detection using MediaPipe and OpenCV in Python. Developed a gesture-controlled volume adjustment system for Mac devices based on finger movements.
+  - Tools & technologies used: Python, MediaPipe, OpenCV
+
+- **Extended Reality**
+  - Crafting an XR application, November 2023
+  - Worked on a R&D in extended reality, developing diverse pipelines (Audio, AR calling) using open-source models. Evaluated pipeline performance across multiple chips using widely known datasets to ensure optimal accuracy and cost-efficiency in XR applications.
+  - Tools & technologies used: Python, Pytorch, Tensorflow
+
+- **Flipkart Database Clone**
+  - Course Project, November 2023
+  - Collaborated on a comprehensive database project modeling the schema for a Flipkart-style platform, integrating diverse database constraints to ensure robustness and functionality.
+  - Tools & technologies used: Python, PostGreSQL, ERDPlus, LucidChart
+
+---
+
+### Languages and Technologies
+- **Languages:** C/C++, Python, Java, HTML, CSS, Bootstrap, JavaScript, PHP, MySQL, PostGreSQL
+- **Technologies/Frameworks:** Tensorflow, PyTorch, HuggingFace, Langchain, ChromaDB, Streamlit, MongoDB, Xampp, Scikit-Learn, Pandas, OpenCV, Jupyter Notebook, Git, Shell Script, MediaPipe
+
+---
+
+### Additional Experience and Interests
+- **Team Head**, Sponsorship Team, PARSEC4.0, Tech Fest, IIT Dharwad, July 2023-Feb 2024
+- **Team Head**, Sponsorship Team, Sangharsh, Sports Fest, IIT Dharwad, Aug 2023-Dec 2023
+- **Student Mentor**, Mentorship Program, Jan 2023-Sept 2023
+- **Interests**: Deep Learning, Computer Vision, Natural Language Models, Data Science, Data Analysis, Software Development
 
 
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
