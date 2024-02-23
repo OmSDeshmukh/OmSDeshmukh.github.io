@@ -1,6 +1,6 @@
 ---
 title: "NLDBQuery"
-excerpt: "NLP Project to talk with your database 1<br/><img src='/images/500x300.png'>"
+excerpt: "NLP Project to talk with your database 1<br/><img src='example.png'>"
 collection: portfolio
 ---
 
