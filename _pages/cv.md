@@ -11,8 +11,6 @@ redirect_from:
 
 # Om Deshmukh
 
-[GitHub](https://github.com/OmSDeshmukh) | [LinkedIn](www.linkedin.com/in/omsuhasdeshmukh) | [Portfolio Website](https://omsdeshmukh.github.io/)
-
 ---
 
 ### Education
