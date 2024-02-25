@@ -8,7 +8,7 @@ NLDBQuery is a project that utilizes Google's free Gemini API as the base for in
 
 The input and output interface for the user is simple and designed using Streamlit. All the APIs for different models are accessed through Hugging Face, and pipelines and prompts are created using Langchain.
 
-![Example Image](example.png)
+![Example Image](portfolio-1-example.png)
 
 ## Frameworks and Tools Used
 - Google's Gemini API
