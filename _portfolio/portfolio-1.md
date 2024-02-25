@@ -20,6 +20,4 @@ The input and output interface for the user is simple and designed using Streaml
 ## GitHub Repository
 [GitHub Repository](https://github.com/OmSDeshmukh/NLDBQuery)
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
