@@ -1,4 +1,3 @@
-
 ---
 title: "FAQ Assistant"
 excerpt: "Chatbot to answer previously answered queries for your company<br/><img src='portfolio-2-example.png'>"
