@@ -1,0 +1,37 @@
+name: Deploy Website to GitHub Pages
+
+on:
+  push:
+    branches:
+      - patch-1
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Checkout the repository
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    # Step 2: Set up Node.js environment (if your website uses it)
+    # Uncomment if applicable.
+    #- name: Set up Node.js
+    #  uses: actions/setup-node@v3
+    #  with:
+    #    node-version: '16'
+
+    # Step 3: Build the site (adjust if a build step is required)
+    # Uncomment if your website requires a build step (e.g., Jekyll, React).
+    #- name: Install Dependencies
+    #  run: npm install
+
+    #- name: Build the Website
+    #  run: npm run build
+
+    # Step 4: Deploy to GitHub Pages
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./  # Adjust to the directory containing your built website
