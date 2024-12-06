@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Resume"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -15,7 +15,7 @@ redirect_from:
 
 ### Education
 - **Indian Institute of Technology, Dharwad**
-  - B.Tech. Computer Science and Engineering, CGPA: 9.23, 2025
+  - B.Tech. Computer Science and Engineering, CGPA: 9.35, 2025
 
 - **Mallick Jr College, Sambhajinagar**
   - Maharashtra State Board of Secondary and Higher Secondary Education, Pune, Percentage: 94.83%, 2021
@@ -26,15 +26,31 @@ redirect_from:
 ---
 
 ### Coursework
-- **College:** Data Structures and Algorithms, Design and Analysis of Algorithms, Artificial Intelligence, Discrete Structures, Software Systems, Introduction to Probability and Data Analysis, Databases and Information Systems
+- **College:** Artificial Intelligence, Deep Learning, Maths for Data Science, Probability Models and Applications, Data Structures and Algorithms, Operating Systems, Computer Networks, Discrete Structures,Databases and Information Systems, Computer Architecture
 - **Coursera:** Machine Learning Specialisation(by Andrew Ng), Deep Learning Specialisation(by Andrew Ng)
 
 ---
 
 ### Technical Projects and R&D
-- **Unpaired Image Translation**
-  - Building GAN model for unpaired image translation, ongoing
-  - Tools & technologies used: Python, Pytorch
+- **MegaTron**
+  - **B.Tech Project** (July 2024 - Present)
+  - Development of the first-ever test-time and clean-label backdoor attack, named MegaTron, targeting Vision Transformers (ViT) and its variants across various computer vision tasks. Designed and implemented two novel trigger patterns and three unique architectural modifications, achieving a Triggered Accuracy Ratio (TAR) of up to 98%.
+  - Tools & technologies used: Python, PyTorch
+
+- **BadScan**
+  - **Research Project** (Jan 2024 - July 2024)
+  - Developed a test-time architectural backdoor attack, named BadScan, targeting visual state-space models (VSSM) such as MAMBA across various computer vision tasks. Designed a novel method for token scanning, achieving a TAR of up to 13%. This work is under review in Knowledge-Based Systems, a Q1-ranked ML journal by Elsevier.
+  - Tools & technologies used: Python, PyTorch, Triton
+
+- **YourExpense**
+  - **Daily Expense Tracker App** (Sept 2024 - Oct 2024)
+  - Developed an ML-powered feature to automate expense entry by extracting details like category, amount, and date from photographed bills using a custom OCR pipeline. Deployed the ML model with a Flask backend for seamless image processing and app-server communication.
+  - Tools & technologies used: Python, PyTorch, Flask
+
+- **Moodify**
+  - **Chatbot for Music Recommendation** (May 2024 - June 2024)
+  - Developed a chatbot that uses a tone analyzer to detect user mood and recommend music genres. Enhanced the genre-to-mood mapping using collaborative filtering for accurate and personalized recommendations.
+  - Tools & technologies used: Python, RASA, Hugging Face
 
 - **NLDBQuery**
   - Natural Language to SQL Query Processor, January 2024
