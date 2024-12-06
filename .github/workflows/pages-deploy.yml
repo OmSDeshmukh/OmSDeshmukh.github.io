@@ -18,18 +18,25 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v3
 
-    # Step 2: Build the site (uncomment and modify if needed)
-    # If your site requires a build step (e.g., for static site generators like Jekyll or React)
-    # Uncomment and modify this section
-    #- name: Install Dependencies
-    #  run: npm install
+    # Step 2: Install Jekyll and dependencies (if needed)
+    - name: Set up Ruby and Jekyll
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.1'  # Specify the Ruby version if you need it
 
-    #- name: Build the Website
-    #  run: npm run build
+    - name: Install dependencies
+      run: |
+        gem install jekyll bundler
+        bundle install
 
-    # Step 3: Deploy to GitHub Pages
+    # Step 3: Build the Jekyll site (if you're using Jekyll or another static site generator)
+    - name: Build the Website
+      run: |
+        bundle exec jekyll build
+
+    # Step 4: Deploy to GitHub Pages
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./  # Set to root directory
+        publish_dir: ./_site  # Set to the _site directory where Jekyll outputs the built site
